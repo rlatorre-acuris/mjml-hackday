@@ -1,0 +1,28 @@
+{
+  "name": "mjml-hackday",
+  "version": "1.0.0",
+  "description": "mjml playground",
+  "main": "index.js",
+  "scripts": {
+    "build": "mjml -w mm-headlines.mjml -o index.html",
+    "start": "npm run build & nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlatorre-acuris/mjml-hackday.git"
+  },
+  "author": "Riccardo La Torre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rlatorre-acuris/mjml-hackday/issues"
+  },
+  "homepage": "https://github.com/rlatorre-acuris/mjml-hackday#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mjml": "^4.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
